@@ -45,5 +45,6 @@ def resumen_ingresos_gastos():
     print(f"Total ingresos del mes: {total_ingresos:,.2f}")
     print(f"Total gastos del mes: {total_gastos:,.2f}")
     print(f"Balance mensual: {total_ingresos - total_gastos:,.2f}")
+    print("fin del programa")
 
 resumen_ingresos_gastos()
